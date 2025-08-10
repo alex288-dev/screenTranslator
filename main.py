@@ -59,7 +59,7 @@ class ScreenTranslatorApp:
         self.root = root
         self.root.title("Screen Translator")
         self.root.geometry("240x160")  # Make the window bigger
-        self.api_key = "AIzaSyCT6AcdNxa84FF6BV0-UwO8kVIAeLMIr5g"  # <-- Replace with your Gemini API key
+        self.api_key = ""  # <-- Replace with your Gemini API key
         self.font_size = 12
         self.select_btn = tk.Button(root, text="Select", command=self.start_selection)
         self.select_btn.pack(padx=20, pady=(30, 10))
